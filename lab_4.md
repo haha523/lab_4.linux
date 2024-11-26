@@ -101,7 +101,7 @@ docker exec -it aafire-container1 bash
 ping aafire-container2
 ```
 
-Test :
+Результат :
 
 ![image](https://github.com/haha523/lab_4.linux/blob/c222540dd54b96d47e4cfe9d445459df2506376e/png%20for%20lab/l%E1%BB%ADa%201.png)
 
