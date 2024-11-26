@@ -10,6 +10,8 @@ mkdir docker-cowsay
 cd docker-cowsay
 ```
 ![image](https://github.com/haha523/lab_4.linux/blob/21975dc9072328ec80bc7ed17e62fdf9c352e279/png%20for%20lab/b%C3%A0i%201%20t%E1%BA%A1o%20b%C3%B2.png)
+
+
 2\. Создать Docker-файл:
 
 - Содержимое Dockerfile:
