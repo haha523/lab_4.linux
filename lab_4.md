@@ -103,7 +103,7 @@ ping aafire-container2
 
 Результат :
 
-![image](https://github.com/haha523/lab_4.linux/blob/c222540dd54b96d47e4cfe9d445459df2506376e/png%20for%20lab/l%E1%BB%ADa%201.png)
+![image](https://github.com/haha523/lab_4.linux/blob/247f18abe4ec611820bcc407ff996d63234b8c2c/png%20for%20lab/l%E1%BB%ADa%202.png)
 
 
 Краткое содержание :
