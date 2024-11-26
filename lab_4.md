@@ -1,5 +1,45 @@
 ## Лабораторная работа No4
 
+Задание 1 :
+
+1\. Создать папку проекта:
+- Создайте новую папку для вашего проекта:
+
+```bash
+mkdir docker-cowsay
+cd docker-cowsay
+```
+![image](https://github.com/haha523/lab_4.linux/blob/21975dc9072328ec80bc7ed17e62fdf9c352e279/png%20for%20lab/b%C3%A0i%201%20t%E1%BA%A1o%20b%C3%B2.png)
+2\. Создать Docker-файл:
+
+- Содержимое Dockerfile:
+
+```bash
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y cowsay fortune
+CMD ["/usr/games/cowsay", "Moo"]
+```
+
+3\. Создание образа Docker:
+- Откройте терминал (или командную строку в Windows) и перейдите в папку, содержащую Dockerfile. Запустите следующую команду для создания образа:
+
+```bash
+docker build -t cowsay .
+```
+
+![image](https://github.com/haha523/lab_4.linux/blob/21975dc9072328ec80bc7ed17e62fdf9c352e279/png%20for%20lab/t%E1%BA%A1o%20b%C3%B2%20X%C3%A2y%20D%E1%BB%B1ng%20Docker%20Image.png)
+
+4\. Результат :
+
+```bash
+docker run cowsay
+```
+
+![image](https://github.com/haha523/lab_4.linux/blob/21975dc9072328ec80bc7ed17e62fdf9c352e279/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20con%20b%C3%B2.png)
+
+
+Задание 2 :
+
 1\. Установка Docker :
 
 Сначала вам нужно установить Docker. Можно установить на виртуальную машину Linux или с помощью WSL (подсистема Windows для Linux).
