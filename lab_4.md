@@ -145,7 +145,11 @@ ping aafire-container2
 
 Результат :
 
-![image](https://github.com/haha523/lab_4.linux/blob/247f18abe4ec611820bcc407ff996d63234b8c2c/png%20for%20lab/l%E1%BB%ADa%202.png)
+```bash
+docker run -it aafire-image
+```
+
+![image](https://github.com/haha523/lab_4.linux/blob/fd771498b493c5c0bd2909dc72e9ee9cf770882d/png%20for%20lab/h%C3%ACnh%20%E1%BA%A3nh%20l%E1%BB%ADa%202.png)
 
 
 Краткое содержание :
