@@ -22,6 +22,8 @@ RUN apt-get update && apt-get install -y cowsay fortune
 CMD ["/usr/games/cowsay", "Moo"]
 ```
 
+![image](https://github.com/haha523/lab_4.linux/blob/5944fa0108a5cbcf0b0830205d566226aeb56ee7/png%20for%20lab/docker%20file%20cosway.png)
+
 3\. Создание образа Docker:
 - Откройте терминал (или командную строку в Windows) и перейдите в папку, содержащую Dockerfile. Запустите следующую команду для создания образа:
 
@@ -65,6 +67,8 @@ RUN apt-get update && apt-get install -y libaa-bin
 CMD ["aafire"]
 RUN apt-get update && apt-get install -y iputils-ping 
 ```
+
+![image](https://github.com/haha523/lab_4.linux/blob/5944fa0108a5cbcf0b0830205d566226aeb56ee7/png%20for%20lab/docker%20aafire-image.file.png)
 
 3\. Создайте образ Docker :
 
